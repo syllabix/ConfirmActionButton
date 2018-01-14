@@ -9,12 +9,35 @@
 
 ## Install
 
-Grade:
+Gralde:
 
 ```implementation 'com.crushonly.confirmactionbutton:confirmactionbutton:0.0.1'```
 
-### Notes and Todos
+## Usage
 This project is in very early stages of development, and while it does provide a functional component - levels of customization are limited. 
+
+Data Binding Example: 
+
+```
+<com.crushonly.confirmactionbutton.ConfirmActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/confirm_btn_background"
+            android:layout_gravity="bottom|right"
+            android:elevation="4dp"
+            app:drawableRight="@drawable/icn_morph"
+            app:onClick="@{ () -> activity.handleClick() }"
+            app:onConfirmClick="@{ () -> activity.handleConfirmClick() }"
+            app:confirmActionMode="@={ activity.confirmActionMode }"
+            app:confirmText="@={ activity.confirmButtonMessage }"/>
+            />
+```
+
+
+### Notes and Todos
 
 1. Improve Test Coverage
 2. Expand widget styleable attributes
+3. Improve usage guide in Readme
