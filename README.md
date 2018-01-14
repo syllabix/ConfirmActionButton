@@ -9,9 +9,19 @@
 
 ## Install
 
-Gralde:
+Gradle:
 
-```implementation 'com.crushonly.confirmactionbutton:confirmactionbutton:0.0.1'```
+```implementation 'com.crushonly.confirmactionbutton:confirmactionbutton:0.0.2'```
+
+As the project is in it's early stages, it is not on jCenter yet - you will need to add the bintray repo to your gradle file
+
+```
+repositories{
+    maven {
+        url  "http://dl.bintray.com/syllabix/maven"
+    }
+}
+```
 
 ## Usage
 This project is in very early stages of development, and while it does provide a functional component - levels of customization are limited. 

@@ -4,13 +4,15 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
 
+//Version
+def version = "0.0.2"
 
 ext {
 
     //For bintray and jcenter distribution
     bintrayRepo = 'maven'
     bintrayName = 'confirm-action-button'
-    versionName = '0.0.1'
+    versionName = version
 
     publishedGroupId = 'com.crushonly.confirmactionbutton'
     libraryName = 'confirmactionbutton'
@@ -21,7 +23,7 @@ ext {
     siteUrl = 'https://github.com/syllabix/ConfirmActionButton'
     gitUrl = 'https://github.com/syllabix/ConfirmActionButton.git'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = version
 
     developerId = 'syllabix'
     developerName = 'Tom Stoepker'
@@ -39,7 +41,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
-        versionName "0.0.1"
+        versionName version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
