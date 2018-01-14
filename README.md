@@ -2,7 +2,7 @@
 
 | Confirm Action Button | About |
 |:-------------------:|:------|
-| ![confirm-button-demo](https://user-images.githubusercontent.com/5419021/34921044-b2449924-f94a-11e7-82b2-64e314e78589.gif) | An early stage implementatio of a data bindable floating action button for android that supports a tap twice to confirm workflow.
+| ![confirm-button-demo](https://user-images.githubusercontent.com/5419021/34921044-b2449924-f94a-11e7-82b2-64e314e78589.gif) | An early stage implementation of a data bindable floating action button for android that supports a tap twice to confirm workflow.
 
 ---
 
