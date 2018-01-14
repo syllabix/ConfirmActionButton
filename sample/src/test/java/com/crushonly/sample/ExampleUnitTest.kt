@@ -1,4 +1,4 @@
-package com.crushonly.confirmactionbutton
+package com.crushonly.sample
 
 import org.junit.Test
 

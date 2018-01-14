@@ -1,5 +1,20 @@
 package com.crushonly.confirmactionbutton
 
+import android.animation.ArgbEvaluator
+import android.animation.FloatEvaluator
+import android.animation.ValueAnimator
+import android.content.Context
+import android.content.res.ColorStateList
+import android.databinding.*
+import android.graphics.drawable.Animatable
+import android.util.AttributeSet
+import android.view.Gravity
+import android.view.View
+import android.widget.FrameLayout
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+
 /**
  * Confirm Action Button
  *

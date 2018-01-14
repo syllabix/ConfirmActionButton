@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ConfirmActionButton">
+        <attr name="android:tint" />
+        <attr name="android:backgroundTint" />
+        <attr name="confirmTextColor" format="integer" />
+        <attr name="confirmTint" format="integer" />
+        <attr name="confirmBackgroundTint" format="integer"/>
+        <attr name="drawableRight" format="integer" />
+        <attr name="confirmDrawableRight" format="integer" />
+        <attr name="allCaps" format="boolean" />
+    </declare-styleable>
+</resources>

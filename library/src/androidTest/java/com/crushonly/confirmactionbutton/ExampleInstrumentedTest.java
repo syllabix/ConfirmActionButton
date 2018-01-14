@@ -1,4 +1,4 @@
-package com.crushonly.confirmactionbutton;
+package com.crushonly.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
